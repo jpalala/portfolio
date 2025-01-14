@@ -4,7 +4,7 @@ import { metaData } from "../config";
 
 const navItems = {
   "/projects": { name: "Projects" },
-  "/blog": { name: "Blog" },
+  "https://blog.jpalala.io": { name: "Blog" },
 };
 
 export function Navbar() {
@@ -22,6 +22,7 @@ export function Navbar() {
               key={path}
               href={path}
               className="transition-all hover:text-neutral-800 dark:hover:text-neutral-200 flex align-middle relative"
+              rel="noopener noreferrer"
             >
               {name}
             </Link>
