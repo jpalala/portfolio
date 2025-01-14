@@ -17,12 +17,12 @@ export default function Page() {
       </a>
 
       <h1 className="mb-8 text-2xl font-medium tracking-tight">
-        Portfolio, made simple!
+        Hi, My name is Joe Palala
       </h1>
 
       <div className="prose prose-neutral dark:prose-invert">
         <p>
-          I'm a fullstack developer focusing on web development technologies.
+          I'm a fullstack web developer based in Makati!
         </p>
         <p>
          Stay tuned for more updates!
